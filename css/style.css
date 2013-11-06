@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/* Reset
+================================================================================================= */
+body{color:#555;background:#fff;font-size:12px;line-height:1.666em;font-family: Helvetica, Arial;}
+h1,h2,h3{font-size:100%;}
+body,h1,h2,h3,h4,ul,li,p,img{margin:0;padding:0;border:0;font-weight: normal;}
+img{margin:0;line-height:normal;}
+em,i{font-style:normal;text-decoration:none}
+ul{list-style:none;}
+
+/* Font
+================================================================================================= */
+@font-face {
+    font-family: 'FuturaConMedium';
+    src: url('font/futurastd-condensed-webfont.eot');
+    src: url('font/futurastd-condensed-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/futurastd-condensed-webfont.woff') format('woff'),
+    url('font/futurastd-condensed-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Commonly Used 
+================================================================================================= */
+a{text-decoration:none}
+.cs-clear{+zoom:1;}
+.cs-clear:before,
+.cs-clear:after{clear:both;content:".";font-size:0;display:block;height:0;overflow:hidden;visibility:hidden;}
+
+
+/* Header */
+
+/* Home */
+#home {background:#000 url(../img/home.jpg) no-repeat left top;height:768px;padding:1px 0 0;position: relative;}
+    #home .logo {display: block;width:178px;height:154px;margin:40px auto 0 auto;}
+    #home h2 {text-transform:uppercase;font-family: 'FuturaConMedium';font-size:40px;color:#eee;text-align:right;float:right;width:550px;margin:10% 20% 0 0;}
+    #home .sub_heading {font-size:13px;color:#ccc;text-align:right;float:right;width:550px;margin:20px 20% 0 0;}
+    #home .down {background:url(../img/btn_down.png) no-repeat;width:54px;padding:60px 0 0 0;text-transform:uppercase;text-align:center;color:#bbb;position: absolute;bottom:50px;left:50%;margin-left:-27px;}
+
+#menu {background:#e6e6e6;height:768px;padding:1px 0 0;overflow:hidden;}
+    #menu h2 {font-size:50px;font-family: 'FuturaConMedium';text-transform:uppercase;text-align:center;margin:80px 0 0;}
+    #menu .menu_list {margin:100px 30px 0 30px;}
+    #menu .menu_list li {float:left;-webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.75);-moz-box-shadow:0px 0px 5px rgba(50, 50, 50, 0.75);box-shadow:0px 0px 5px rgba(50, 50, 50, 0.75);}
+    #menu .menu_list li a {display:block;}
+    #menu .menu_list li img {display:block;}
+
+#promotion {background:#000;height:768px;padding:1px 0 0;}
+    #promotion ul {margin:100px 0 0;text-align:center;}
+
+
+#contact {background:#e6e6e6;height:500px;padding:1px 0 0;position: relative;}
+    #contact .address {position: absolute;left:50%;top:110px;width:340px;margin-left:-400px;font-size:13px;color:#777;}
+    #contact .map {position: absolute;left:50%;top:70px;width:340px;margin-left:0;}
+    #contact h4 {margin-top:30px;font-family: 'FuturaConMedium';font-size:18px;margin:30px 0 8px 0;color:#333;}
