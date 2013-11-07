@@ -8,7 +8,7 @@
     <file path="$PROJECT_DIR$/../Diesel/index.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383709758572" ignored="false" />
     <file path="$PROJECT_DIR$/../Diesel/index2.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383709700183" ignored="false" />
     <file path="/index2.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383709664934" ignored="false" />
-    <file path="/style.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383843131269" ignored="false" />
+    <file path="/style.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383844601656" ignored="false" />
     <file path="/main.js" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383843271548" ignored="false" />
     <file path="/jquery.bxslider.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383816353109" ignored="false" />
     <file path="$PROJECT_DIR$/../upstudios/css/main.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383798714839" ignored="false" />
@@ -81,7 +81,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="33" selection-start="1332" selection-end="1332" vertical-scroll-proportion="-16.285715">
+            <state line="46" column="103" selection-start="2416" selection-end="2416" vertical-scroll-proportion="-27.142857">
               <folding />
             </state>
           </provider>
@@ -99,7 +99,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="117" selection-start="4446" selection-end="4446" vertical-scroll-proportion="0.46774194">
+            <state line="82" column="184" selection-start="4723" selection-end="4723" vertical-scroll-proportion="0.8327674">
               <folding />
             </state>
           </provider>
@@ -461,14 +461,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="33" selection-start="1332" selection-end="1332" vertical-scroll-proportion="-16.285715">
+        <state line="46" column="103" selection-start="2416" selection-end="2416" vertical-scroll-proportion="-27.142857">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="117" selection-start="4446" selection-end="4446" vertical-scroll-proportion="0.46774194">
+        <state line="82" column="184" selection-start="4723" selection-end="4723" vertical-scroll-proportion="0.8327674">
           <folding />
         </state>
       </provider>

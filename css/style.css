@@ -64,8 +64,8 @@ a{text-decoration:none}
     #home .down:hover {opacity:0.7;}
 
 #menu {background:#000;height:auto;padding:1px 0 0;overflow:hidden;position: relative;height:910px;border-top:10px solid #222;}
-    #menu h2 {color:#ccc;font-size:50px;font-family: 'FuturaConMedium';text-transform:uppercase;text-align:center;margin:80px 0 0;}
-    #menu .menu_list {margin:100px 0 0;}
+    #menu h2 {background:url(../img/title_bg.gif) no-repeat top center;color:#ccc;font-size:50px;font-family: 'FuturaConMedium';text-transform:uppercase;text-align:center;margin:30px 0 0;height:114px;line-height: 144px;}
+    #menu .menu_list {margin:40px 0 0;}
     #menu .menu_list li {float:left;}
     #menu .menu_list li a {display:block;}
     #menu .menu_list li img {display:block;}
@@ -78,9 +78,9 @@ a{text-decoration:none}
     #gallery .gallery_slider {width:100%;}
 
 #contact {background:#e6e6e6;height:472px;padding:1px 0 0;position: relative;border-top:10px solid #ccc;}
-    #contact .address {position: absolute;left:50%;top:110px;width:340px;margin-left:-450px;font-size:13px;color:#777;}
+    #contact .address {position: absolute;left:50%;top:40px;width:340px;margin-left:-450px;font-size:13px;color:#777;}
     #contact .map {border:2px solid #ccc;position: absolute;left:50%;top:70px;width:580px;height:340px;margin-left:-90px;}
-    #contact h2 {font-size:50px;font-family: 'FuturaConMedium';text-transform:uppercase;margin:0 0 50px 0;color:#333;}
+    #contact h2 {background:url(../img/title_bg2.gif) no-repeat;height:144px;line-height:154px;font-size:50px;font-family: 'FuturaConMedium';text-transform:uppercase;margin:0 0 -20px 0;color:#333;}
     #contact h4 {margin-top:30px;font-family: 'FuturaConMedium';font-size:24px;margin:30px 0 8px 0;color:#555;}
 
 
