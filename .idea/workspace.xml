@@ -4,13 +4,35 @@
     <list default="true" id="84160fb5-8157-41c1-965f-ac94b74e227a" name="Default" comment="" />
     <ignored path="shouyong.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383724283954" ignored="false" />
+    <file path="/index.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383815934827" ignored="false" />
     <file path="$PROJECT_DIR$/../Diesel/index.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383709758572" ignored="false" />
     <file path="$PROJECT_DIR$/../Diesel/index2.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383709700183" ignored="false" />
     <file path="/index2.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383709664934" ignored="false" />
-    <file path="/style.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383727504580" ignored="false" />
+    <file path="/style.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383816396930" ignored="false" />
     <file path="/main.js" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383727395828" ignored="false" />
-    <file path="/jquery.bxslider.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383727477364" ignored="false" />
+    <file path="/jquery.bxslider.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383816353109" ignored="false" />
+    <file path="$PROJECT_DIR$/../upstudios/css/main.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383798714839" ignored="false" />
+    <file path="/main.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383798703319" ignored="false" />
+    <file path="$PROJECT_DIR$/../upstudios/index.php" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383798923574" ignored="false" />
+    <file path="/index.php" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383798497395" ignored="false" />
+    <file path="$PROJECT_DIR$/../upstudios/css/ie8.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383798988561" ignored="false" />
+    <file path="/ie8.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383798987514" ignored="false" />
+    <file path="$PROJECT_DIR$/../upstudios/index-zh.php" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383799139230" ignored="false" />
+    <file path="/Dummy.txt" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383800005483" ignored="false" />
+    <file path="$PROJECT_DIR$/../shenzhi/contact.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810095208" ignored="false" />
+    <file path="$PROJECT_DIR$/../shenzhi/index.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810082773" ignored="false" />
+    <file path="$PROJECT_DIR$/../shenzhi/css/style.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810135579" ignored="false" />
+    <file path="$PROJECT_DIR$/../shenzhi/about.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810088864" ignored="false" />
+    <file path="$PROJECT_DIR$/../shenzhi/about2.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810092296" ignored="false" />
+    <file path="$PROJECT_DIR$/../shenzhi/product.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810099543" ignored="false" />
+    <file path="$PROJECT_DIR$/../shenzhi/product2.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810102455" ignored="false" />
+    <file path="$PROJECT_DIR$/../shenzhi/service.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810105415" ignored="false" />
+    <file path="$PROJECT_DIR$/../shenzhi/showcase.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810108399" ignored="false" />
+    <file path="/showcase.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383808607357" ignored="false" />
+    <file path="$PROJECT_DIR$/../shenzhi/css/superfish.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383808530536" ignored="false" />
+    <file path="$PROJECT_DIR$/../piggyinlove/sites/all/themes/piggyinlove/templates/page--home.tpl.php" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810751994" ignored="false" />
+    <file path="/page--home.tpl.php" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810749744" ignored="false" />
+    <file path="$PROJECT_DIR$/../piggyinlove/sites/all/themes/piggyinlove/templates/page--shop.tpl.php" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810896104" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,19 +113,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="71" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.6354515">
+            <state line="40" column="22" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="75" selection-start="739" selection-end="805" vertical-scroll-proportion="-9.5">
+            <state line="14" column="73" selection-start="737" selection-end="737" vertical-scroll-proportion="0.22523285">
               <folding />
             </state>
           </provider>
@@ -112,7 +134,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="23" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
+            <state line="35" column="27" selection-start="1051" selection-end="1054" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,10 +159,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/jquery.bxslider.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -412,13 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="75" selection-start="739" selection-end="805" vertical-scroll-proportion="-9.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../victoria/sites/all/themes/victoria/app/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="27" selection-start="3287" selection-end="3287" vertical-scroll-proportion="0.0">
@@ -435,7 +450,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
+        <state line="35" column="27" selection-start="1051" selection-end="1054" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="22" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -447,9 +469,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="71" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.6354515">
+        <state line="14" column="73" selection-start="737" selection-end="737" vertical-scroll-proportion="0.22523285">
           <folding />
         </state>
       </provider>
