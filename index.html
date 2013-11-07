@@ -12,6 +12,7 @@
     <!-- Scripts -->
     <script src="./js/modernizr.js"></script>
     <!-- Desktop -->
+    <link rel="stylesheet" media="screen" href="./css/jquery.fancybox.css">
     <link rel="stylesheet" media="screen" href="./css/jquery.bxslider.css">
     <link rel="stylesheet" media="screen" href="./css/style.css">
     <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
@@ -19,53 +20,72 @@
 <body>
     <div class="page">
         <section id="home">
+            <div class="home_slider" data-0="margin-top:0px;" data-600="margin-top:200px;">
+                <img src="./img/home.jpg" />
+                <img src="./img/home2.jpg" />
+            </div>
+            <div class="nav nav-left">
+                <a href="#menu">Menu</a>
+                <a href="#aboutus">About</a>
+            </div>
+            <div class="nav nav-right">
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
             <div class="logo"><img src="./img/logo.gif" /></div>
-            <h2 class="slogan">Sushi and rolls</h2>
+            <h2 class="slogan" data-0="margin-top:0px;" data-600="margin-top:100px;">Sushi and rolls</h2>
             <div class="cs-clear"></div>
-            <p class="sub_heading cs-clear">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <div class="sub_heading cs-clear" data-0="margin-top:0px;" data-600="margin-top:100px;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco. laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="pic/promotion.jpg" class="readmore">Read More</a>
+            </div>
             <div class="down">scroll</div>
         </section>
         <section id="menu">
             <h2>Menu</h2>
-            <div class="menu_list">
+            <div class="menu_list" data--200-bottom="margin-top:100px;" data--1000-bottom="margin-top:300px;" data-anchor-target="#menu">
                 <ul class="menu_list_bxslider">
                     <li>
-                        <a href="#"><img src="./pic/menu_s1.jpg" /></a>
+                        <a rel="menu" href="./pic/P1.jpg"><img src="./pic/menu_s1.jpg" /></a>
                     </li>
                     <li>
-                        <a href="#"><img src="./pic/menu_s2.jpg" /></a>
+                        <a rel="menu" href="./pic/P2.jpg"><img src="./pic/menu_s2.jpg" /></a>
                     </li>
                     <li>
-                        <a href="#"><img src="./pic/menu_s3.jpg" /></a>
+                        <a rel="menu" href="./pic/P3.jpg"><img src="./pic/menu_s3.jpg" /></a>
                     </li>
                     <li>
-                        <a href="#"><img src="./pic/menu_s4.jpg" /></a>
+                        <a rel="menu" href="./pic/P4.jpg"><img src="./pic/menu_s4.jpg" /></a>
                     </li>
                     <li>
-                        <a href="#"><img src="./pic/menu_s5.jpg" /></a>
+                        <a rel="menu" href="./pic/P5.jpg"><img src="./pic/menu_s5.jpg" /></a>
                     </li>
                     <li>
-                        <a href="#"><img src="./pic/menu_s6.jpg" /></a>
+                        <a rel="menu" href="./pic/P6.jpg"><img src="./pic/menu_s6.jpg" /></a>
                     </li>
                     <li>
-                        <a href="#"><img src="./pic/menu_s7.jpg" /></a>
+                        <a rel="menu" href="./pic/P7.jpg"><img src="./pic/menu_s7.jpg" /></a>
                     </li>
                     <li>
-                        <a href="#"><img src="./pic/menu_s8.jpg" /></a>
+                        <a rel="menu" href="./pic/P8.jpg"><img src="./pic/menu_s8.jpg" /></a>
                     </li>
                 </ul>
             </div>
         </section>
-        <section id="promotion">
-            <ul>
-                <li>
-                    <img src="./pic/promo_1.gif" />
-                </li>
-            </ul>
+        <section id="aboutus">
+            <div class="logo" data-400-top="opacity:0;" data-0-top="opacity:1;" data-200-bottom="padding-top:0px;" data--1000-bottom="padding-top:300px;" data-anchor-target="#aboutus"><img src="./img/logo_big.gif" /></div>
+            <div class="intro" data-300-top="opacity:0;" data-100-top="opacity:1;" data-anchor-target="#aboutus">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. laboris nisi ut aliquip ex ea commodo consequat.</div>
+        </section>
+        <section id="gallery">
+            <div class="gallery_slider">
+                <img src="./img/home.jpg" />
+                <img src="./img/home2.jpg" />
+            </div>
         </section>
         <section id="contact">
             <div class="address">
+                <h2>Contact</h2>
                 <h4>ADDRESS</h4>
                 <p>3/F. No.100, Century Ave., Pudong New Area, Shanghai</p>
                 <h4>OPENING HOURS</h4>
@@ -74,9 +94,63 @@
                 <h4>ENQUIRY / RESERVATION</h4>
                 <p>TEL: 021- 6877 7718</p>
             </div>
-            <div class="map"><img src="./pic/map.gif" /></div>
+            <div class="map" id="googlemap"></div>
         </section>
     </div>
     <script data-main="./js/main" src="./js/require.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
+    <script>
+        var styles = [
+            {
+                stylers: [
+                    { hue: "#000" },
+                    { saturation: -100 }
+                ]
+            },{
+                featureType: "road",
+                elementType: "geometry",
+                stylers: [
+                    { lightness: 50 },
+                    { visibility: "simplified" }
+                ]
+            },{
+                featureType: "road",
+                elementType: "labels",
+                stylers: [
+                    { visibility: "on" }
+                ]
+            }
+        ];
+
+        // Create a new StyledMapType object, passing it the array of styles,
+        // as well as the name to be displayed on the map type control.
+        var styledMap = new google.maps.StyledMapType(styles,
+                {name: "Styled Map"});
+        var point = new google.maps.LatLng(31.213368,121.506979);
+        // Create a map object, and include the MapTypeId to add
+        // to the map type control.
+        var mapOptions = {
+            zoom: 17,
+            center: new google.maps.LatLng(31.213368,121.506979),
+            mapTypeControlOptions: {
+                mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+            }
+        };
+
+        infowindow = new google.maps.InfoWindow();
+        geocoder = new google.maps.Geocoder();
+        map = new google.maps.Map(document.getElementById('googlemap'),
+                mapOptions);
+
+        //Associate the styled map with the MapTypeId and set it to display.
+        map.mapTypes.set('map_style', styledMap);
+        map.setMapTypeId('map_style');
+
+        var marker = new google.maps.Marker({
+            position: point,
+            map: map,
+            title: '寿勇'
+        });
+    </script>
 </body>
 </html>

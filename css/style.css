@@ -1,8 +1,9 @@
 @charset "utf-8";
 
+@import url(http://fonts.googleapis.com/css?family=Armata|Open+Sans);
 /* Reset
 ================================================================================================= */
-body{color:#555;background:#fff;font-size:12px;line-height:1.666em;font-family: Helvetica, Arial;}
+body{color:#555;background:#fff;font-size:12px;line-height:1.666em;font-family: "Open Sans", Helvetica, Arial;}
 h1,h2,h3{font-size:100%;}
 body,h1,h2,h3,h4,ul,li,p,img{margin:0;padding:0;border:0;font-weight: normal;}
 img{margin:0;line-height:normal;}
@@ -21,6 +22,19 @@ ul{list-style:none;}
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'HelveticaNeueLTPro-UltLt';
+    src: url('font/helveticaneueltproultlt.eot');
+    src: url('font/helveticaneueltproultlt.eot?#iefix') format('embedded-opentype'),
+    url('font/helveticaneueltproultlt.woff') format('woff'),
+    url('font/helveticaneueltproultlt.ttf') format('truetype'),
+    url('font/helveticaneueltproultlt.svg#helveticaneueltproultlt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 /* Commonly Used 
 ================================================================================================= */
 a{text-decoration:none}
@@ -29,27 +43,107 @@ a{text-decoration:none}
 .cs-clear:after{clear:both;content:".";font-size:0;display:block;height:0;overflow:hidden;visibility:hidden;}
 
 
+
+
 /* Header */
 
 /* Home */
-#home {background:#000 url(../img/home.jpg) no-repeat left top;height:768px;padding:1px 0 0;position: relative;}
-    #home .logo {display: block;width:178px;height:154px;margin:40px auto 0 auto;}
-    #home h2 {text-transform:uppercase;font-family: 'FuturaConMedium';font-size:40px;color:#eee;text-align:right;float:right;width:550px;margin:10% 10% 0 0;}
-    #home .sub_heading {font-size:13px;color:#ccc;text-align:right;float:right;width:550px;margin:20px 10% 0 0;}
-    #home .down {background:url(../img/btn_down.png) no-repeat;width:54px;padding:60px 0 0 0;text-transform:uppercase;text-align:center;color:#bbb;position: absolute;bottom:50px;left:50%;margin-left:-27px;}
+#home {background:#000;height:768px;padding:1px 0 0;position: relative;overflow:hidden;}
+    #home .logo {display: block;width:178px;height:154px;position: absolute;top:40px;left:50%;margin-left:-90px;z-index:100;}
+    #home .nav {position: absolute;left:50%;top:100px;z-index:100;}
+    #home .nav a {color:#ccc;margin:0 30px;font-family: 'FuturaConMedium';font-size:20px;text-transform: uppercase;}
+    #home .nav a:hover {color:#fff;}
+    #home .nav-left {margin-left:-390px;}
+    #home .nav-right {margin-left:180px;}
+    #home h2 {text-transform:uppercase;font-family: 'FuturaConMedium';font-size:40px;color:#eee;text-align:right;position: absolute;width:550px;top:340px;right:10%;z-index:100;}
+    #home .sub_heading {font-size:14px;color:#ccc;text-align:justify;width:550px;position: absolute;top:400px;right:10%;z-index:100;}
+    #home .readmore {float:right;background:#660e0f;color:#ccc;font-size:12px;padding:5px 10px;margin-top:20px;}
+    #home .readmore:hover {background:#931109;color:#fff;}
+    #home .down {z-index:100;cursor:pointer;background:url(../img/btn_down.png) no-repeat bottom;width:54px;padding:0 0 60px 0;text-transform:uppercase;text-align:center;color:#bbb;position: absolute;top:650px;left:50%;margin-left:-27px;
+                -webkit-animation: moving 3s infinite;-moz-animation: moving 3s infinite;-ms-animation: moving 3s infinite;-o-animation: moving 3s infinite; animation: moving 3s infinite;}
+    #home .down:hover {opacity:0.7;}
 
-#menu {background:#000;height:auto;padding:1px 0 0;overflow:hidden;}
-    #menu h2 {font-size:50px;font-family: 'FuturaConMedium';text-transform:uppercase;text-align:center;margin:80px 0 0;}
+#menu {background:#000;height:auto;padding:1px 0 0;overflow:hidden;position: relative;height:910px;border-top:10px solid #222;}
+    #menu h2 {color:#ccc;font-size:50px;font-family: 'FuturaConMedium';text-transform:uppercase;text-align:center;margin:80px 0 0;}
     #menu .menu_list {margin:100px 0 0;}
     #menu .menu_list li {float:left;}
     #menu .menu_list li a {display:block;}
     #menu .menu_list li img {display:block;}
 
-#promotion {background:#000;height:768px;padding:1px 0 0;}
-    #promotion ul {margin:100px 0 0;text-align:center;}
+#aboutus {background:#e6e6e6;height:768px;padding:1px 0 0;overflow: hidden;border-top:10px solid #ccc;border-bottom:10px solid #333;}
+    #aboutus .logo {margin:170px 0 0;text-align:center;}
+    #aboutus .intro {width:550px;color:#777;text-align:justify;margin:0 auto;padding-left:40px;margin-top:100px;line-height:200%;font-size:14px;}
+
+#gallery {background:#000;overflow: hidden;}
+    #gallery .gallery_slider {width:100%;}
+
+#contact {background:#e6e6e6;height:472px;padding:1px 0 0;position: relative;border-top:10px solid #ccc;}
+    #contact .address {position: absolute;left:50%;top:110px;width:340px;margin-left:-450px;font-size:13px;color:#777;}
+    #contact .map {border:2px solid #ccc;position: absolute;left:50%;top:70px;width:580px;height:340px;margin-left:-90px;}
+    #contact h2 {font-size:50px;font-family: 'FuturaConMedium';text-transform:uppercase;margin:0 0 50px 0;color:#333;}
+    #contact h4 {margin-top:30px;font-family: 'FuturaConMedium';font-size:24px;margin:30px 0 8px 0;color:#555;}
 
 
-#contact {background:#e6e6e6;height:500px;padding:1px 0 0;position: relative;}
-    #contact .address {position: absolute;left:50%;top:110px;width:340px;margin-left:-400px;font-size:13px;color:#777;}
-    #contact .map {position: absolute;left:50%;top:70px;width:340px;margin-left:0;}
-    #contact h4 {margin-top:30px;font-family: 'FuturaConMedium';font-size:18px;margin:30px 0 8px 0;color:#333;}
+/* Animation */
+@-webkit-keyframes moving {
+    0% {
+        padding-bottom:60px;
+    }
+    50% {
+        padding-bottom:70px;
+    }
+    100% {
+        padding-bottom:60px;
+    }
+}
+
+@-moz-keyframes moving {
+    0% {
+        padding-bottom:60px;
+    }
+    50% {
+        padding-bottom:70px;
+    }
+    100% {
+        padding-bottom:60px;
+    }
+}
+
+@-ms-keyframes moving {
+    0% {
+        padding-bottom:60px;
+    }
+    50% {
+        padding-bottom:70px;
+    }
+    100% {
+        padding-bottom:60px;
+    }
+}
+
+@-o-keyframes moving {
+    0% {
+        padding-bottom:60px;
+    }
+    50% {
+        padding-bottom:70px;
+    }
+    100% {
+        padding-bottom:60px;
+    }
+}
+
+@keyframes moving {
+    0% {
+        padding-bottom:60px;
+    }
+    50% {
+        padding-bottom:70px;
+    }
+    100% {
+        padding-bottom:60px;
+    }
+}
+
+a
+{-webkit-transition:   all 0.3s ease;-moz-transition:  all 0.3s ease;-o-transition:  all 0.3s ease;-ms-transition:  all 0.3s ease;transition:  all 0.3s ease;}
