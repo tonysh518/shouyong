@@ -14,90 +14,155 @@
     <!-- Desktop -->
     <link rel="stylesheet" media="screen" href="./css/jquery.fancybox.css">
     <link rel="stylesheet" media="screen" href="./css/jquery.bxslider.css">
+    <link rel="stylesheet" media="screen" href="./js/cloudzoom/cloudzoom.css">
     <link rel="stylesheet" media="screen" href="./css/style.css">
     <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+    <!--[if (IE 6)]>
+        <link rel="stylesheet" media="screen" href="./css/ie6.css">
+        <script src="./js/DD_belatedPNG.js"></script>
+        <script>
+            DD_belatedPNG.fix('*');
+            document.execCommand("BackgroundImageCache", false, true);
+        </script>
+    <![endif]-->
 </head>
 <body>
+    <div class="loading-wrap">
+        <div class="logo"></div>
+        <div class="loading-loader">
+            <div class="loading-bar"></div>
+        </div>
+        <div class="loading-percentage"></div>
+    </div>
+
     <div class="page">
         <section id="home">
-            <div class="home_slider" data-0="margin-top:0px;" data-1000="margin-top:250px;">
-                <img src="./img/home.jpg" />
-                <img src="./img/home2.jpg" />
+            <div class="home_wrap">
+                <div class="home_slider_wrap">
+                    <div class="home_slider">
+                        <img src="./img/home.jpg" />
+                        <img src="./img/home2.jpg" />
+                        <img src="./img/home3.jpg" />
+                    </div>
+                </div>
+                <div class="nav_wrap" data--200-top="opacity:1;" data--600-top="opacity:0;" data-anchor-target="#home">
+                    <div class="nav nav-left">
+                        <a href="#menu">Menu</a>
+                        <a href="#aboutus">About</a>
+                    </div>
+                    <div class="nav nav-right">
+                        <a href="#gallery">Gallery</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="logo"><img src="./img/logo.gif" /></div>
+                </div>
+                <h2 class="slogan" data--0-top="opacity:1;" data--400-top="opacity:0;" data-anchor-target="#home">Sushi and rolls</h2>
+                <div class="cs-clear"></div>
+                <div class="sub_heading cs-clear" data--0-top="opacity:1;" data--400-top="opacity:0;" data-anchor-target="#home">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco. laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a href="pic/promotion.jpg" class="readmore">Read More</a>
+                </div>
+                <div class="down">scroll</div>
             </div>
-            <div class="nav nav-left">
-                <a href="#menu">Menu</a>
-                <a href="#aboutus">About</a>
-            </div>
-            <div class="nav nav-right">
-                <a href="#gallery">Gallery</a>
-                <a href="#contact">Contact</a>
-            </div>
-            <div class="logo"><img src="./img/logo.gif" /></div>
-            <h2 class="slogan" data-0="margin-top:0px;" data-600="margin-top:100px;">Sushi and rolls</h2>
-            <div class="cs-clear"></div>
-            <div class="sub_heading cs-clear" data-0="margin-top:0px;" data-600="margin-top:100px;">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco. laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a href="pic/promotion.jpg" class="readmore">Read More</a>
-            </div>
-            <div class="down">scroll</div>
         </section>
         <section id="menu">
-            <h2>Menu</h2>
-            <div class="menu_list" data--200-bottom="margin-top:50px;" data--1000-bottom="margin-top:250px;" data-anchor-target="#menu">
+            <div class="menu_wrap">
+                <h2>Menu</h2>
+                <div class="menu_list" >
                 <ul class="menu_list_bxslider">
                     <li>
                         <a rel="menu" href="./pic/P1.jpg"><img src="./pic/menu_s1.jpg" /></a>
+                        <div class="title">Course Menu</div>
                     </li>
                     <li>
                         <a rel="menu" href="./pic/P2.jpg"><img src="./pic/menu_s2.jpg" /></a>
+                        <div class="title">Course Menu</div>
                     </li>
                     <li>
                         <a rel="menu" href="./pic/P3.jpg"><img src="./pic/menu_s3.jpg" /></a>
+                        <div class="title">Course Menu</div>
                     </li>
                     <li>
                         <a rel="menu" href="./pic/P4.jpg"><img src="./pic/menu_s4.jpg" /></a>
+                        <div class="title">Sashami</div>
                     </li>
                     <li>
                         <a rel="menu" href="./pic/P5.jpg"><img src="./pic/menu_s5.jpg" /></a>
+                        <div class="title">Assorted Sushi & Bowl</div>
                     </li>
                     <li>
                         <a rel="menu" href="./pic/P6.jpg"><img src="./pic/menu_s6.jpg" /></a>
+                        <div class="title">Sushi</div>
                     </li>
                     <li>
                         <a rel="menu" href="./pic/P7.jpg"><img src="./pic/menu_s7.jpg" /></a>
+                        <div class="title">Roll</div>
                     </li>
                     <li>
                         <a rel="menu" href="./pic/P8.jpg"><img src="./pic/menu_s8.jpg" /></a>
+                        <div class="title">Appetizer & Dessert</div>
                     </li>
                 </ul>
+                <div class="menu_arrow menu_arrow_left"></div>
+                <div class="menu_arrow menu_arrow_right"></div>
+            </div>
             </div>
         </section>
+
         <section id="aboutus">
-            <div class="logo" data-400-top="opacity:0;" data-0-top="opacity:1;" data-200-bottom="padding-top:0px;" data--1000-bottom="padding-top:300px;" data-anchor-target="#aboutus"><img src="./img/logo_big.gif" /></div>
-            <div class="intro" data-300-top="opacity:0;" data-100-top="opacity:1;" data-anchor-target="#aboutus">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. laboris nisi ut aliquip ex ea commodo consequat.</div>
+            <div class="aboutus_wrap">
+                <div class="intro">
+                    <h2>About</h2>
+                    <div class="logo"><img src="./img/logo_big.gif" /></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
         </section>
+
         <section id="gallery">
-            <div class="gallery_slider">
-                <img src="./img/home.jpg" />
-                <img src="./img/home2.jpg" />
-                <img src="./img/home3.jpg" />
+            <div class="gallery_wrap">
+                <h2>Gallery</h2>
+                <div class="gallery_slider">
+                    <img src="./pic/gallery/gallery3.jpg" />
+                    <img src="./pic/gallery/gallery1.jpg" />
+                    <img src="./pic/gallery/gallery2.jpg" />
+                    <img src="./pic/gallery/gallery3.jpg" />
+                    <img src="./pic/gallery/gallery1.jpg" />
+                    <img src="./pic/gallery/gallery2.jpg" />
+                </div>
+                <div id="gallery_slider_pager">
+                    <a data-slide-index="0"><img src="./pic/gallery/gallery_s1.jpg" /></a>
+                    <a data-slide-index="1"><img src="./pic/gallery/gallery_s2.jpg" /></a>
+                    <a data-slide-index="2"><img src="./pic/gallery/gallery_s3.jpg" /></a>
+                    <a data-slide-index="3"><img src="./pic/gallery/gallery_s1.jpg" /></a>
+                    <a data-slide-index="4"><img src="./pic/gallery/gallery_s2.jpg" /></a>
+                    <a data-slide-index="5"><img src="./pic/gallery/gallery_s3.jpg" /></a>
+                </div>
+                <div class="gallery_arrow gallery_arrow_left"></div>
+                <div class="gallery_arrow gallery_arrow_right"></div>
             </div>
         </section>
         <section id="contact">
-            <div class="address">
-                <h2>Contact</h2>
-                <h4>ADDRESS</h4>
-                <p>3/F. No.100, Century Ave., Pudong New Area, Shanghai</p>
-                <h4>OPENING HOURS</h4>
-                <p>Lunch Time MON-SUN:  11:00 - 14:30</p>
-                <p>Dinner Time MON-SUN:  17:00 - 23:00</p>
-                <h4>ENQUIRY / RESERVATION</h4>
-                <p>TEL: 021- 6877 7718</p>
+            <div class="contact_wrap">
+                <div class="address">
+                    <h2>Contact</h2>
+                    <h4>ADDRESS</h4>
+                    <p>3/F. No.100, Century Ave., <br/>Pudong New Area, Shanghai</p>
+                    <h4>OPENING HOURS</h4>
+                    <p>Lunch Time MON-SUN:  11:00 - 14:30</p>
+                    <p>Dinner Time MON-SUN:  17:00 - 23:00</p>
+                    <h4>ENQUIRY / RESERVATION</h4>
+                    <p>TEL: 021- 6877 7718</p>
+                </div>
+                <div class="map" id="googlemap"></div>
             </div>
-            <div class="map" id="googlemap"></div>
+        </section>
+        <section id="copyright">
+            &copy; Copyright 2013 Shouyong
         </section>
     </div>
+
     <script data-main="./js/main" src="./js/require.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
     <script>
@@ -105,13 +170,14 @@
             {
                 stylers: [
                     { hue: "#000" },
-                    { saturation: -100 }
+                    { saturation: -100 },
+                    { gamma:0.3 }
                 ]
             },{
                 featureType: "road",
                 elementType: "geometry",
                 stylers: [
-                    { lightness: 50 },
+                    { lightness: -50 },
                     { visibility: "simplified" }
                 ]
             },{
@@ -135,7 +201,8 @@
             center: new google.maps.LatLng(31.234637,121.506974),
             mapTypeControlOptions: {
                 mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
-            }
+            },
+            scrollwheel: false
         };
 
         infowindow = new google.maps.InfoWindow();

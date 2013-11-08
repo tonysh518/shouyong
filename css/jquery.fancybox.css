@@ -36,9 +36,6 @@
 }
 
 .fancybox-opened .fancybox-skin {
-	-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-	   -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-	        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .fancybox-outer, .fancybox-inner {
@@ -88,12 +85,10 @@
 }
 
 #fancybox-loading div {
-	width: 44px;
-	height: 44px;
-	background: #000 url('../img/loading.gif') center center no-repeat;
-    -webkit-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
+	width: 33px;
+	height: 33px;
+	background: url('../img/loading.png') center center no-repeat;
+    -webkit-animation: loading 2s infinite;-moz-animation: loading 2s infinite;-ms-animation: loading 2s infinite;-o-animation: loading 2s infinite; animation: loading 2s infinite;
 }
 
 .fancybox-close {
@@ -114,7 +109,7 @@
 .fancybox-nav {
 	position: absolute;
 	top: 0;
-	width: 40%;
+	width: 60px;
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
@@ -123,15 +118,15 @@
 }
 
 .fancybox-prev {
-	left: 0;
+	left: -70px;
     background:url(../img/arrow-pre.png) no-repeat center left;
-    opacity:0.3;
+    opacity:0.6;
 }
 
 .fancybox-next {
-	right: 0;
+	right: -70px;
     background:url(../img/arrow-next.png) no-repeat center right;
-    opacity:0.3;
+    opacity:0.6;
 }
 
 .fancybox-nav span {

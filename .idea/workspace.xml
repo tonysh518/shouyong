@@ -4,12 +4,12 @@
     <list default="true" id="84160fb5-8157-41c1-965f-ac94b74e227a" name="Default" comment="" />
     <ignored path="shouyong.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383843241285" ignored="false" />
+    <file path="/index.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383910511889" ignored="false" />
     <file path="$PROJECT_DIR$/../Diesel/index.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383709758572" ignored="false" />
     <file path="$PROJECT_DIR$/../Diesel/index2.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383709700183" ignored="false" />
     <file path="/index2.html" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383709664934" ignored="false" />
-    <file path="/style.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383844601656" ignored="false" />
-    <file path="/main.js" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383843271548" ignored="false" />
+    <file path="/style.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383910711716" ignored="false" />
+    <file path="/main.js" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383910741097" ignored="false" />
     <file path="/jquery.bxslider.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383816353109" ignored="false" />
     <file path="$PROJECT_DIR$/../upstudios/css/main.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383798714839" ignored="false" />
     <file path="/main.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383798703319" ignored="false" />
@@ -33,7 +33,9 @@
     <file path="$PROJECT_DIR$/../piggyinlove/sites/all/themes/piggyinlove/templates/page--home.tpl.php" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810751994" ignored="false" />
     <file path="/page--home.tpl.php" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810749744" ignored="false" />
     <file path="$PROJECT_DIR$/../piggyinlove/sites/all/themes/piggyinlove/templates/page--shop.tpl.php" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383810896104" ignored="false" />
-    <file path="/jquery.fancybox.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383834610471" ignored="false" />
+    <file path="/jquery.fancybox.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383907864505" ignored="false" />
+    <file path="/ie6.css" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383887565769" ignored="false" />
+    <file path="/jquery.queryloader2.js" changelist="84160fb5-8157-41c1-965f-ac94b74e227a" time="1383904999529" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,44 +55,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../victoria/sites/all/themes/victoria/app/main.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="544" column="32" selection-start="15774" selection-end="16601" vertical-scroll-proportion="0.0">
+            <state line="117" column="22" selection-start="5591" selection-end="5591" vertical-scroll-proportion="-13.892858">
               <folding>
-                <marker date="1378997648000" expanded="true" signature="3170:3645" placeholder="..." />
-                <marker date="1378997648000" expanded="true" signature="3257:3621" placeholder="..." />
-                <marker date="1378997648000" expanded="true" signature="3300:3599" placeholder="..." />
-                <marker date="1378997648000" expanded="false" signature="3384:3426" placeholder="..." />
-                <marker date="1378997648000" expanded="true" signature="3477:3575" placeholder="..." />
-                <marker date="1378997648000" expanded="true" signature="3521:3549" placeholder="..." />
+                <marker date="1383910563000" expanded="true" signature="1188:1313" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../victoria/sites/all/themes/victoria/app/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="26" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="63" selection-start="6441" selection-end="6441" vertical-scroll-proportion="0.76869565">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mapei/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1856" column="0" selection-start="43615" selection-end="43774" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,16 +78,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="184" selection-start="4723" selection-end="4723" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.bxslider.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/jquery.bxslider.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="20" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+            <state line="98" column="46" selection-start="6206" selection-end="6206" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,7 +87,73 @@
       <file leaf-file-name="jquery.fancybox.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/jquery.fancybox.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="41" selection-start="2275" selection-end="2275" vertical-scroll-proportion="0.0">
+            <state line="90" column="169" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../911fp/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="277" column="78" selection-start="5482" selection-end="5797" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1369891932000" expanded="true" signature="3006:3066" placeholder="{...}" />
+                <marker date="1369891932000" expanded="true" signature="3092:3152" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="219" column="28" selection-start="6844" selection-end="6844" vertical-scroll-proportion="0.50289494">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../victoria/sites/all/themes/victoria/app/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="335" column="9" selection-start="10245" selection-end="10679" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1378807371000" expanded="true" signature="3170:3645" placeholder="..." />
+                <marker date="1378807371000" expanded="true" signature="3257:3621" placeholder="..." />
+                <marker date="1378807371000" expanded="true" signature="3300:3599" placeholder="..." />
+                <marker date="1378807371000" expanded="false" signature="3384:3426" placeholder="..." />
+                <marker date="1378807371000" expanded="true" signature="3477:3575" placeholder="..." />
+                <marker date="1378807371000" expanded="true" signature="3521:3549" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.bxslider.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/jquery.bxslider.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="148" column="15" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../avene_redness/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="50" selection-start="1738" selection-end="1738" vertical-scroll-proportion="-11.535714">
+              <folding>
+                <marker date="1383223050000" expanded="true" signature="2406:2507" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.queryloader22.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery.queryloader22.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="29" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,20 +169,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/jquery.fancybox.css" />
+        <option value="$PROJECT_DIR$/css/ie6.css" />
         <option value="$PROJECT_DIR$/css/jquery.bxslider.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/jquery.queryloader2.js" />
+        <option value="$PROJECT_DIR$/css/jquery.fancybox.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
+    <option name="x" value="20" />
     <option name="y" value="22" />
-    <option name="width" value="1946" />
-    <option name="height" value="1339" />
+    <option name="width" value="2540" />
+    <option name="height" value="1357" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -231,6 +269,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloudzoom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouyong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shouyong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -249,24 +305,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shouyong" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shouyong" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -277,10 +315,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/css/font" />
       <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/css/font" />
     </key>
   </component>
   <component name="RunManager">
@@ -296,14 +334,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="22" width="1946" height="1339" extended-state="0" />
+    <frame x="20" y="22" width="2540" height="1357" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25473684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25701684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -379,68 +417,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../victoria/sites/all/themes/victoria/app/main.js">
+    <entry file="file://$PROJECT_DIR$/../avene_redness/nav.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1378997648000" expanded="true" signature="3170:3645" placeholder="..." />
-            <marker date="1378997648000" expanded="true" signature="3257:3621" placeholder="..." />
-            <marker date="1378997648000" expanded="true" signature="3300:3599" placeholder="..." />
-            <marker date="1378997648000" expanded="false" signature="3384:3426" placeholder="..." />
-            <marker date="1378997648000" expanded="true" signature="3477:3575" placeholder="..." />
-            <marker date="1378997648000" expanded="true" signature="3521:3549" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../avene_redness/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../avene_redness/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="528" selection-end="528" vertical-scroll-proportion="-0.057363015" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../victoria/sites/all/themes/victoria/app/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="544" column="32" selection-start="15774" selection-end="16601" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1378997648000" expanded="true" signature="3170:3645" placeholder="..." />
-            <marker date="1378997648000" expanded="true" signature="3257:3621" placeholder="..." />
-            <marker date="1378997648000" expanded="true" signature="3300:3599" placeholder="..." />
-            <marker date="1378997648000" expanded="false" signature="3384:3426" placeholder="..." />
-            <marker date="1378997648000" expanded="true" signature="3477:3575" placeholder="..." />
-            <marker date="1378997648000" expanded="true" signature="3521:3549" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/jquery.fancybox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="41" selection-start="2275" selection-end="2275" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../victoria/sites/all/themes/victoria/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="16" selection-end="442" vertical-scroll-proportion="0.016129032">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../avene_redness/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="12" selection-start="955" selection-end="956" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/jquery.bxslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="189" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
@@ -452,23 +431,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/../avene_redness/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="26" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0">
+        <state line="24" column="55" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/../avene_redness/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="184" selection-start="4723" selection-end="4723" vertical-scroll-proportion="0.0">
+        <state line="12" column="5" selection-start="528" selection-end="528" vertical-scroll-proportion="0.19520548">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.queryloader2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="0" selection-start="7227" selection-end="7227" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../avene_redness/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="50" selection-start="1738" selection-end="1738" vertical-scroll-proportion="-11.535714">
+          <folding>
+            <marker date="1383223050000" expanded="true" signature="2406:2507" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.queryloader22.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="29" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/cloudzoom/cloudzoom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../victoria/sites/all/themes/victoria/app/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="335" column="9" selection-start="10245" selection-end="10679" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1378807371000" expanded="true" signature="3170:3645" placeholder="..." />
+            <marker date="1378807371000" expanded="true" signature="3257:3621" placeholder="..." />
+            <marker date="1378807371000" expanded="true" signature="3300:3599" placeholder="..." />
+            <marker date="1378807371000" expanded="false" signature="3384:3426" placeholder="..." />
+            <marker date="1378807371000" expanded="true" signature="3477:3575" placeholder="..." />
+            <marker date="1378807371000" expanded="true" signature="3521:3549" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../911fp/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="277" column="78" selection-start="5482" selection-end="5797" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1369891932000" expanded="true" signature="3006:3066" placeholder="{...}" />
+            <marker date="1369891932000" expanded="true" signature="3092:3152" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jquery.bxslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="15" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jquery.fancybox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="169" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../victoria/sites/all/themes/victoria/app/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="63" selection-start="6441" selection-end="6441" vertical-scroll-proportion="0.76869565">
+        <state line="117" column="22" selection-start="5591" selection-end="5591" vertical-scroll-proportion="-13.892858">
+          <folding>
+            <marker date="1383910563000" expanded="true" signature="1188:1313" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="46" selection-start="6206" selection-end="6206" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="219" column="28" selection-start="6844" selection-end="6844" vertical-scroll-proportion="0.50289494">
           <folding />
         </state>
       </provider>

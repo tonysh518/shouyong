@@ -6,6 +6,9 @@ require.config({
         bxslider: './jquery.bxslider',
         fancybox: './jquery.fancybox.pack',
         easing: './jquery.easing.1.3',
+        hoverIntent: './jquery.hoverIntent.min',
+        queryLoader: './jquery.queryloader22',
+        cloudzoom: './cloudzoom/cloudzoom',
         waypoints: './waypoint'
     },
     shim: {
@@ -14,25 +17,24 @@ require.config({
         bxslider: { deps: ['jquery'] },
         fancybox: { deps: ['jquery'] },
         easing: { deps: ['jquery'] },
+        hoverIntent: { deps: ['jquery'] },
+        queryLoader: { deps: ['jquery'] },
+        cloudzoom: { deps: ['jquery'] },
         waypoints: { deps: ['jquery'] }
     }
 });
 
-require(['jquery','skrollr','scrollto','bxslider','fancybox','easing','waypoints'], function ($) {
+require(['jquery','skrollr','scrollto','bxslider','fancybox','easing','hoverIntent','queryLoader','waypoints','cloudzoom'], function ($) {
     'use strict';
-
     /** INITIALISER **/
     init();
     function init() {
-        if(!$('html').is('.oldie')) {
-            // Fantastic plugin for parallax and animation
-            // https://github.com/Prinzhorn/skrollr
-            var s = skrollr.init({ forceHeight: false, smoothScrolling:false });
-        } else {
-            $('html').removeClass('js');
-            $('html').addClass('no-js');
-        }
 
+        var isIe6 = $.browser.msie && $.browser.version == 6;
+        var isIe7 = $.browser.msie && $.browser.version == 7;
+        if(!(isIe6 || isIe7)) {
+            var s = skrollr.init({ forceHeight: false, smoothScrolling:false });
+        }
 
 
         // Init controls
@@ -41,9 +43,24 @@ require(['jquery','skrollr','scrollto','bxslider','fancybox','easing','waypoints
         initGalleryControls();
         initAnimation();
 
+        preLoad();
+
         // Bind window resize
         $(window).resize(windowResize);
         $(window).trigger('resize');
+    }
+
+    function preLoad() {
+        $(document.body).queryLoader2({
+            onLoading : function( percentage ){
+                var per = parseInt(percentage);
+                $('.loading-percentage').html(per+'%');
+                $('.loading-bar').css({'width':per+'%'});
+            },
+            onComplete : function(){
+                $('.loading-wrap').fadeOut();
+            }
+        });
     }
 
     function initHomeControls() {
@@ -93,12 +110,24 @@ require(['jquery','skrollr','scrollto','bxslider','fancybox','easing','waypoints
         });
 
         $('.menu_list_bxslider li').click(function(event){
-            if(event.clientX < $(window).width()/2){
+            if(event.clientX < $(window).width()*0.25){
                 bxSlider.goToPrevSlide();
             }
-            else {
+            if(event.clientX > $(window).width()*0.75){
                 bxSlider.goToNextSlide();
             }
+        }).hoverIntent(function(){
+                $(this).animate({'opacity':0.5});
+            },function(){
+                $(this).animate({'opacity':1});
+            });
+
+        $('.menu_arrow_left').click(function() {
+            bxSlider.goToPrevSlide();
+        });
+
+        $('.menu_arrow_right').click(function() {
+            bxSlider.goToNextSlide();
         });
 
         $('.menu_list_bxslider li a').click(function(event){
@@ -106,7 +135,7 @@ require(['jquery','skrollr','scrollto','bxslider','fancybox','easing','waypoints
         });
 
         $('.menu_list_bxslider li a').fancybox({
-            padding:0,
+            padding:10,
             prevSpeed: 400,
             nextSpeed: 800,
             openMethod : 'dropIn',
@@ -116,20 +145,115 @@ require(['jquery','skrollr','scrollto','bxslider','fancybox','easing','waypoints
             nextEasing: 'easeInOutQuart',
             prevEasing: 'easeInQuart',
             maxWidth: '90%',
-            maxHeight: '90%'
+            maxHeight: '90%',
+            afterShow: function(){
+                var src = $('.fancybox-image').attr('src');
+                $('.fancybox-image').addClass('cloudzoom').attr("data-cloudzoom", "zoomImage: '"+src+"'");
+                $('.fancybox-image').CloudZoom({zoomPosition:'inside',zoomOffsetX:0});
+            },
+            beforeClose: function(){
+                $('.cloudzoom-zoom-inside,.cloudzoom-blank').remove();
+                $('.fancybox-image').unbind().die();
+            }
         });
     }
 
     function initGalleryControls() {
+//
+//        var switchEffect = 'horizontal';
+//        if(isIe6) {
+//            switchEffect = 'fade';
+//        }
+
         var bxSlider = $('.gallery_slider').bxSlider({
             useCSS: false,
             auto: true,
             easing: 'easeInOutQuart',
+            //mode: switchEffect,
             speed: 1000,
-            responsive:true
+            responsive:true,
+            pagerCustom: '#gallery_slider_pager',
+            onSliderLoad: function() {
+                resizeGalleryHeight();
+            }
         });
 
+        $('#gallery').hoverIntent(function(){
+            $('#gallery_slider_pager').css({opacity:0,display:'block'}).animate({'bottom':0,'opacity':1});
+        },function(){
+            $('#gallery_slider_pager').animate({'bottom':-110,'opacity':0});
+        });
+
+        $('.gallery_arrow_left').click(function() {
+            bxSlider.goToPrevSlide();
+        });
+
+        $('.gallery_arrow_right').click(function() {
+            bxSlider.goToNextSlide();
+        });
     }
+
+    function initAnimation() {
+        $('#menu').waypoint(function() {
+            $('#menu .menu_list li').each(function(index,obj){
+                $(obj).delay(index*300).animate({opacity:1},1000);
+            });
+        }, { offset: '70%'});
+
+        $('#aboutus').waypoint(function(direction) {
+            if(direction === 'down') {
+                $('#aboutus').css('zIndex',1);
+            }
+            else
+            {
+                $('#aboutus').css('zIndex',0);
+            }
+        }, { offset: '100%' });
+
+        $('#aboutus .intro h2').hide();
+        $('#aboutus .intro div').hide();
+        $('#aboutus .intro p').hide();
+        $('#aboutus').waypoint(function() {
+            $('#aboutus .intro h2').fadeIn();
+            $('#aboutus .intro div').delay(600).fadeIn();
+            $('#aboutus .intro p').delay(1200).fadeIn();
+        }, { offset: '70%' });
+
+//        $('#menu').waypoint(function(direction) {
+//            if(direction === 'down') {
+//                $('.menu_wrap').css('position','fixed');
+//            }
+//            else
+//            {
+//                $('.menu_wrap').css('position','absolute');
+//            }
+//        });
+
+//        $('#aboutus').waypoint(function(direction) {
+//            if(direction === 'down') {
+//                $('.aboutus_wrap').css('position','fixed');
+//            }
+//            else
+//            {
+//                $('.aboutus_wrap').css('position','absolute');
+//            }
+//        });
+
+//        $('#gallery').waypoint(function(direction) {
+//            if(direction === 'down') {
+//                $('#contact').css('zIndex',2);
+//                $('.contact_wrap').css('position','fixed');
+//            }
+//            else
+//            {
+//                $('#contact').css('zIndex',0);
+//                $('.contact_wrap').css('position','absolute');
+//            }
+//        }, { offset: function() {
+//            return $(window).height() - $('#gallery').height();
+//        } });
+    }
+
 
     function windowResize() {
         // re-align the down icon
@@ -138,47 +262,13 @@ require(['jquery','skrollr','scrollto','bxslider','fancybox','easing','waypoints
             downTop = 655;
         }
         $('.down').css({top:downTop});
+        resizeGalleryHeight();
     }
 
-
-    function initAnimation() {
-        $('#menu').waypoint(function() {
-            $('#menu .menu_list li').each(function(index,obj){
-                $(obj).delay(index*200).animate({opacity:1});
-            });
-        }, { offset: '80%',triggerOnce:true });
+    function resizeGalleryHeight() {
+        var height = $('#gallery .bx-viewport').height() + 174; // gallery height + title height
+        $('#gallery,.gallery_wrap').height(height);
     }
-
-
-    /** PRELOADER **/
-    /**
-     * @abstract Pulls in any image on the stage with the preload class
-     */
-//    function loadAssets() {
-//        var manifest = [];
-//
-//        // get all preload objects & populate manifest
-//        $('body').find('img.preload').each(function() {
-//            var obj = $(this);
-//            var objSrc = obj.attr('src');
-//            manifest.push({ 'src': objSrc, 'id': obj });
-//        });
-//
-//        // load and execute manifest
-//        var preload = new createjs.LoadQueue(false);
-//        preload.addEventListener("progress", handleProgress);
-//        preload.addEventListener("complete", handleComplete);
-//        preload.loadManifest(manifest);
-//
-//        function handleComplete(event) {
-//            initialContentHide();
-//            preloadComplete();
-//        }
-//
-//        function handleProgress(event) {
-//            $('#loader .bar').css('width', (event.progress*100) + '%');
-//        }
-//    }
 
 
     (function ($, F) {
